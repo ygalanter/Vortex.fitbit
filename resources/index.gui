@@ -1,0 +1,42 @@
+
+
+<svg>
+  <!-- Analog clock definition -->
+  <defs>
+    <symbol id="clock-widget" class='clock-widget' type='clock-widget'
+      focusable='false' pointer-events='visible' system-events='all'
+      x='0' y='0' width='100%' height='100%' data-size='16'/>
+  </defs>
+  L
+  <image id="vortex" x="49" y="0" width="250" height="250" display="none" />
+  
+    <!-- Analog Clock -->
+      <use id="analog-watch-hands" href='#clock-widget'>
+  
+
+        <!-- clock hands -->
+        <g transform='translate(50%,50%)'>
+          
+          <circle cx="0" cy="0" r="106" fill="blue"/>
+          <circle cx="0" cy="0" r="101" fill="black"/>
+
+          <g id="hour-hand">
+             <circle cx="0" cy="-104" r="15" fill="blueviolet" />
+          </g>
+          
+          <g id="minute-hand">
+             <circle cx="0" cy="-104" r="13" fill="cyan" />
+          </g>
+
+          <g id="second-hand">
+            <circle cx="0" cy="-104" r="11" fill="white" />
+          </g>      
+
+        </g>
+
+      </use>
+</svg>
+
+
+ 
+    

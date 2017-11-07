@@ -1,0 +1,10 @@
+{
+  "fitbit": {
+    "appUUID": "334229df-9d8e-4ec8-94f1-78b392eb2a5a",
+    "appType": "app",
+    "appDisplayName": "Vortex",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": []
+  }
+}
