@@ -7,13 +7,14 @@
       focusable='false' pointer-events='visible' system-events='all'
       x='0' y='0' width='100%' height='100%' data-size='16'/>
   </defs>
-  L
+  
   <image id="vortex" x="49" y="0" width="250" height="250" display="none" />
   
-    <!-- Analog Clock -->
+  <g id="notVortex">
+  
+      <!-- Analog Clock -->
       <use id="analog-watch-hands" href='#clock-widget'>
   
-
         <!-- clock hands -->
         <g transform='translate(50%,50%)'>
           
@@ -35,6 +36,21 @@
         </g>
 
       </use>
+    
+      <text id="lbltime" class="time" ></text>
+      <text id="lbldow" class="options" x="2" y="36" text-anchor="start"></text>
+      <text id="lbldate" class="options" x="2" y="100%-2" text-anchor="start"></text>
+
+      <rect id="batteryEnd" x="100%-6" y="10" width="8" height="12" fill="fb-lime" />
+      <rect id="batteryBack" x="100%-67" y="2" width="60" height="28" fill="fb-lime" />
+      <rect x="100%-64" y="5" width="54" height="21" fill="black" />
+      <rect id="batteryBar" x="100%-61" y="8" width="48" height="15" fill="fb-lime" />
+    
+      <text id="heartIcon" class="options" x="100%-40" y="100%-12" text-anchor="end"></text>
+      <text id="heartText" class="options" x="100%-2" y="100%-9" text-anchor="end"></text>
+    
+  </g>    
+    
 </svg>
 
 

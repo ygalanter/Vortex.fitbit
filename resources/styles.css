@@ -1,6 +1,17 @@
-.defaultText {
-  font-size: 32;
-  font-family: System-Regular;
-  font-weight: regular;
-  text-length: 32;
+.time {
+  font-size: 109;
+  font-family: Tungsten-Medium;
+  text-anchor: middle;
+  text-length: 10;
+  font-weight: bold;
+  x: 50%;
+  y: 50%+44;
+  fill: fb-lime;
+}
+
+.options {
+  font-size: 50;
+  font-family: Tungsten-Medium;
+  text-length: 10;
+  fill: white; 
 }
