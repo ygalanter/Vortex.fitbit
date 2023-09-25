@@ -1,4 +1,4 @@
-import * as messaging from "messaging";
+import * as messaging from "fitbit-file-messaging";
 import { settingsStorage } from "settings";
 
 console.log("Companion Started");
